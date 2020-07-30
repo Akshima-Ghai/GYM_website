@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+ 	<title> GYM Fitness</title>
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+ 	<style type="text/css">
+ 		body{
+			margin: 0;
+			padding: 0;
+			background: url('images/bg.jpg');
+			background-size: cover;
+			font-family: 'Baloo Bhai 2', cursive;
+			
+		}
+
+		.left{
+			display: inline-block;
+			float: left;
+			top: 18px;
+			left: 34px;
+			position: absolute;
+			border: 2px solid ;
+		}
+		.right{
+			float: right;
+			display: inline-block;
+			position: absolute;
+			right: 34px;
+			top: 18px;
+			border: 2px solid ;
+		}
+		.mid{
+			display: block;
+			margin: 18px auto;
+			width: 50%;
+			border: 2px solid ;
+		}
+		.navbar{
+			display: inline-block;
+		}
+		.navbar li{
+			display: inline-block;
+			font-size: 20px;
+		}
+		.navbar li a{
+			color: white;
+			text-decoration: none;
+			padding: 14px 23px;
+
+		}
+		.navbar li a:hover , .navbar li a.active{
+			text-decoration: none;
+			color: grey;
+
+		}
+		.left img{
+			width: 100px;
+			left: 25px;
+			position: relative;
+		}
+		.left div{
+			text-align: center;
+			line-height: 0px;
+			font-size: 20px;
+		}
+
+		.btn{
+			margin: 0px 9px;
+			background-color: black;
+			color: white;
+			padding: 4px 14px;
+			border: 2px solid grey;
+			border-radius: 10px;
+			font-size: 15px;
+			cursor: pointer;
+			font-family: 'Baloo Bhai 2', cursive;
+		}
+
+		.btn:hover{
+			background-color: gray;
+
+		}
+
+		.container{
+			
+			margin-top: : 55px;
+			margin-left: 755px;
+			padding: 55px;
+			width: 40%;
+			border-radius: 28px;
+			color: white;
+			/*float: right;*/
+		}
+
+		.form-group input{
+			
+			font-family: 'Baloo Bhai 2', cursive;
+			text-align: center;
+			display: block;
+			width: 308px;
+			padding: 1px;
+			border-radius: 8px;
+			border: 2px solid black;
+			margin: 3px auto;
+			font-size: 15px;
+
+		}
+
+		.container h1,h2,h3{
+			text-align: center;
+
+		}
+		.container button{
+			display: block;
+			width: 74%;
+			margin: 10px auto;
+		}
+ 	</style>
+</head>
+<body>
+	<header>
+		<!-- left box for logo -->
+		<div class="left">
+			<img src="images/icon.jpg" alt="icon">
+			<div style="color: white;">WorkForYourself</div>
+		</div>
+
+		<!-- mid box for navigation bar -->
+		<div class="mid">
+			<ul class="navbar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Fitness Calculator</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+
+		<!-- right box for search tab -->
+		<div class="right">
+			<button class="btn">Call us Now</button>
+			<button class="btn">Email Us</button>
+		</div>
+
+		<div class="container">
+			<h1>Join the best GYM</h1>
+			<h3>What are you waiting for......... </h3>
+			<h2>Enroll Now!</h2>
+			<form action="noaction.php">
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Name">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Age">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Gender">
+				</div>
+				<div class="form-group">
+					<input type="text" name="" placeholder="Enter Your Locality">
+				</div>
+				<div>
+					<button class="btn">SUBMIT</button>
+				</div>
+			</form>
+			
+		</div>
+	</header>
+	
+</body>
+</html>
